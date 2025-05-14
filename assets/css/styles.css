@@ -23,15 +23,15 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #343a40; /* O cualquier color de fondo */
+    background-color: #343a40; 
     z-index: 1000; /* Para asegurarte de que el nav esté por encima de otros elementos */
-    box-shadow: 0 4px 2px -2px gray; /* Opcional: Añadir sombra para dar un toque de profundidad */
-    padding: 1rem 0; /* Añadir un poco de padding arriba y abajo */
+    box-shadow: 0 4px 2px -2px gray; /* Añade sombra para darle un toque de profundidad */
+    padding: 1rem 0; /* Añade un poco de padding arriba y abajo */
 }
 
 /* Asegurarse de que el contenido no se quede debajo del nav */
 body {
-    padding-top: 60px; /* Ajusta este valor según el tamaño del nav */
+    padding-top: 60px; 
 }
 
 
@@ -74,15 +74,15 @@ main {
 /* Estilos para la imagen de perfil */
 .foto-perfil {
     border-radius: 50%;  /* Hace que la imagen sea redonda */
-    width: 140px;        /* Ajusta el tamaño de la imagen */
-    height: 140px;       /* Ajusta el tamaño de la imagen */
+    width: 140px;        
+    height: 140px;       
     object-fit: cover;   /* Asegura que la imagen no se deforme */
     margin-top: 1rem;    /* Añade un margen superior */
 }
 
 /* Estilos para el logo de LinkedIn */
 .logo-linkedin {
-    width: 50px;         /* Ajusta el tamaño del logo */
+    width: 50px;         
     height: auto;        /* Mantiene la proporción del logo */
     margin-left: 6px;    /* Añade un margen izquierdo */
     vertical-align: middle; /* Alinea verticalmente */
